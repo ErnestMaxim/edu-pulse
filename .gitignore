@@ -1,0 +1,26 @@
+# Compiled Maven outputs (applies to root and all rag-stack submodules)
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Environment & Secrets (keep example templates)
+.env
+.env.local
+.env.*.local
+!*.env.example
+
+# Logs & Temporary files
+*.log
+logs/
+*.tmp
+*.swp
+
+# OS generated files
+.DS_Store
+Thumbs.db
